@@ -26,6 +26,7 @@
   "scripts": {
     "test": "jest",
     "test:lint": "tslint 'test-lint/**'",
+    "test:prod": "npm t && npm run test:lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "semantic-release-prepare": "node tools/semantic-release-prepare",
     "commit": "git-cz",
