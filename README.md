@@ -6,7 +6,7 @@
 [![David](https://img.shields.io/david/alexjoverm/tslint-config-prettier.svg)]()
 [![David](https://img.shields.io/david/dev/alexjoverm/tslint-config-prettier.svg)]()
 
-#### :cop: tslint  +  :nail_care: prettier = :hearteyes:
+#### :cop: tslint  +  :nail_care: prettier = :heart_eyes:
 
 Do you wanna use [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier) without conflicts? tslint-config-prettier disables all conflicting rules that may cause such problems. Prettier takes care of formatting and tslint the rest.
 
