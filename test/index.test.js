@@ -1,5 +1,5 @@
-const { spawnSync } = require('child_process')
-const { rules } = require('../src')
+const spawnSync = require('child_process').spawnSync
+const rules = require('../src').rules
 
 describe("tslint-config-prettier", () => {
   it("All rules equal false", () => {
