@@ -13,11 +13,11 @@
   "files": [
     "src/index.js"
   ],
-  "main": "src/tslint-config-prettier.js",
+  "main": "src/index.js",
   "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/alexjoverm/tslint-config-prettier.git"
   },
   "license": "MIT",
   "engines": {
