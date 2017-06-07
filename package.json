@@ -13,11 +13,11 @@
   "files": [
     "src/index.js"
   ],
-  "main": "src/tslint-config-prettier.js",
+  "main": "src/index.js",
   "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/alexjoverm/tslint-config-prettier.git"
   },
   "license": "MIT",
   "engines": {
@@ -26,9 +26,12 @@
   "scripts": {
     "test": "jest",
     "test:lint": "tslint 'test-lint/**'",
+    "test:prod": "npm t && npm run test:lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "semantic-release-prepare": "node tools/semantic-release-prepare",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "prepush": "npm run test",
+    "commitmsg": "validate-commit-msg"
   },
   "config": {
     "commitizen": {
