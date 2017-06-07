@@ -1,0 +1,59 @@
+{
+  "name": "tslint-config-prettier",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "lint",
+    "tslint",
+    "ts-lint",
+    "prettier",
+    "config",
+    "typescript"
+  ],
+  "files": [
+    "src/index.js"
+  ],
+  "main": "src/tslint-config-prettier.js",
+  "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:lint": "",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release-prepare": "node tools/semantic-release-prepare",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
+    "validate-commit-msg": {
+      "types": "conventional-commit-types",
+      "helpMessage": "Use \"npm run commit\" instead, we use conventional-changelog format :) (https://github.com/commitizen/cz-cli)"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.5",
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.13.1",
+    "jest": "^20.0.1",
+    "lodash": "^4.17.4",
+    "prettier": "^1.4.2",
+    "semantic-release": "^6.3.2",
+    "ts-lint": "^4.5.1",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-react": "^3.0.0",
+    "typescript": "^2.3.4",
+    "validate-commit-msg": "^2.10.1"
+  }
+}
