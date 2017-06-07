@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-prettier",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "keywords": [
     "lint",
@@ -52,7 +52,7 @@
     "jest": "^20.0.1",
     "lodash": "^4.17.4",
     "prettier": "^1.4.2",
-    "semantic-release": "^6.3.2",
+    "semantic-release": "^6.3.6",
     "tslint": "^5.4.3",
     "tslint-eslint-rules": "^4.1.1",
     "tslint-react": "^3.0.0",
