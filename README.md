@@ -17,7 +17,9 @@ Do you wanna use [tslint](https://palantir.github.io/tslint/) and [prettier](htt
 npm install -D tslint-config-prettier
 ```
 
-Extend your `tslint.json`, and make sure `tslint-config-prettier` is **at the end**:
+Make sure you've already set up [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier).
+
+Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at the end**:
 
 ```json
 {
