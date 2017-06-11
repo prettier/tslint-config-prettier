@@ -2,6 +2,7 @@ module.exports = {
   rules: {
     // tslint (https://palantir.github.io/tslint/rules/)
     "align": false,
+    "arrow-parens": false,
     "eofline": false,
     "import-spacing": false,
     "indent": false,
