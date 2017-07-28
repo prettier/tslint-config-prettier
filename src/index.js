@@ -17,6 +17,7 @@ const rules = {
   "semicolon": false,
   "space-before-function-paren": false,
   "trailing-comma": false,
+  "typedef-whitespace": false,
   "whitespace": false,
 
   // tslint-react (https://github.com/palantir/tslint-react)
