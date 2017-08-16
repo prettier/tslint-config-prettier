@@ -1,7 +1,7 @@
 {
   "name": "tslint-config-prettier",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Do you wanna use tslint and prettier without conflicts? tslint-config-prettier disables all conflicting rules that may cause such problems. Prettier takes care of formatting and tslint the rest.",
   "keywords": [
     "lint",
     "tslint",
