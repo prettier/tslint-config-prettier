@@ -15,6 +15,7 @@ module.exports = {
   "quotemark": false,
   "semicolon": false,
   "space-before-function-paren": false,
+  "space-within-parens": false,
   "trailing-comma": false,
   "typedef-whitespace": false,
   "whitespace": false,

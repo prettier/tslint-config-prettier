@@ -12,9 +12,17 @@
   ],
   "files": [
     "src/index.js",
+    "src/codelyzer/rules.js",
     "src/tslint/rules.js",
+    "src/tslint-consistent-codestyle/rules.js",
+    "src/tslint-divid/rules.js",
     "src/tslint-eslint-rules/rules.js",
-    "src/tslint-react/rules.js"
+    "src/tslint-immutable/rules.js",
+    "src/tslint-microsoft-contrib/rules.js",
+    "src/tslint-misc-rules/rules.js",
+    "src/tslint-plugin-ikatyang/rules.js",
+    "src/tslint-react/rules.js",
+    "src/vrsource-tslint-rules/rules.js"
   ],
   "main": "src/index.js",
   "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
