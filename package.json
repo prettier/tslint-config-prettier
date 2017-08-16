@@ -11,7 +11,10 @@
     "typescript"
   ],
   "files": [
-    "src/index.js"
+    "src/index.js",
+    "src/tslint/rules.js",
+    "src/tslint-eslint-rules/rules.js",
+    "src/tslint-react/rules.js"
   ],
   "main": "src/index.js",
   "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
