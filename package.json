@@ -11,7 +11,18 @@
     "typescript"
   ],
   "files": [
-    "src/index.js"
+    "src/index.js",
+    "src/codelyzer/rules.js",
+    "src/tslint/rules.js",
+    "src/tslint-consistent-codestyle/rules.js",
+    "src/tslint-divid/rules.js",
+    "src/tslint-eslint-rules/rules.js",
+    "src/tslint-immutable/rules.js",
+    "src/tslint-microsoft-contrib/rules.js",
+    "src/tslint-misc-rules/rules.js",
+    "src/tslint-plugin-ikatyang/rules.js",
+    "src/tslint-react/rules.js",
+    "src/vrsource-tslint-rules/rules.js"
   ],
   "main": "src/index.js",
   "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
@@ -46,6 +57,7 @@
     "testEnvironment": "node"
   },
   "devDependencies": {
+    "codelyzer": "3.1.2",
     "commitizen": "^2.9.5",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.13.1",
@@ -53,10 +65,17 @@
     "lodash": "^4.17.4",
     "prettier": "^1.4.2",
     "semantic-release": "^6.3.6",
-    "tslint": "^5.4.3",
-    "tslint-eslint-rules": "^4.1.1",
-    "tslint-react": "^3.0.0",
+    "tslint": "5.6.0",
+    "tslint-consistent-codestyle": "1.6.0",
+    "tslint-divid": "1.0.4",
+    "tslint-eslint-rules": "4.1.1",
+    "tslint-immutable": "4.0.2",
+    "tslint-microsoft-contrib": "5.0.1",
+    "tslint-misc-rules": "3.1.3",
+    "tslint-plugin-ikatyang": "1.0.0",
+    "tslint-react": "3.2.0",
     "typescript": "^2.3.4",
-    "validate-commit-msg": "^2.10.1"
+    "validate-commit-msg": "^2.10.1",
+    "vrsource-tslint-rules": "5.1.1"
   }
 }
