@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (whitespace) /src/tslint/whitespace/test.ts[1, 9]: missing whitespace
+ERROR: (whitespace) /src/tslint/whitespace/test.ts[1, 3]: missing whitespace
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+if(true){
+
+}
+
+======
+if (true) {
+}
+
+>>>>>> after
+"
+`;

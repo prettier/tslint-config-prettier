@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (ter-no-irregular-whitespace) /src/tslint-eslint-rules/ter-no-irregular-whitespace/test.ts[1, 5]: irregular whitespace not allowed
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+let 　 abc;
+
+======
+let abc;
+
+>>>>>> after
+"
+`;

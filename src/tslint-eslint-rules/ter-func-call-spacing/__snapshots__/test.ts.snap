@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (ter-func-call-spacing) /src/tslint-eslint-rules/ter-func-call-spacing/test.ts[1, 12]: Unexpected space between function name and paren.
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+console.log (42);
+
+======
+console.log(42);
+
+>>>>>> after
+"
+`;

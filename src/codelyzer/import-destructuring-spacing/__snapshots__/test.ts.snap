@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (import-destructuring-spacing) /src/codelyzer/import-destructuring-spacing/test.ts[1, 8]: You need to leave whitespaces inside of the import statement's curly braces
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+import {Foo,Bar} from './foo';
+
+======
+import { Foo, Bar } from \\"./foo\\";
+
+>>>>>> after
+"
+`;

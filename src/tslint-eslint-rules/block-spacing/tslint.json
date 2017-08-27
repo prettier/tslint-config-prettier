@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "block-spacing": [true, "always"]
+  }
+}

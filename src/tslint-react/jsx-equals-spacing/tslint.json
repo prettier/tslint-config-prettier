@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "jsx-equals-spacing": [true, "never"]
+  }
+}

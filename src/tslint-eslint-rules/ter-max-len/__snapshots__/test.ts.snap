@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (ter-max-len) /src/tslint-eslint-rules/ter-max-len/test.ts[1, 1]: Line 1 exceeds the maximum line length of 80.
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+this.is.a.long().long().long().long().long().long().long().long().long().long().method();
+
+======
+this.is.a
+  .long()
+  .long()
+  .long()
+  .long()
+  .long()
+  .long()
+  .long()
+  .long()
+  .long()
+  .long()
+  .method();
+
+>>>>>> after
+"
+`;

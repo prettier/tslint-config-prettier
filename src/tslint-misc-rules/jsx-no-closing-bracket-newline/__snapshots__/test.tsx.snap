@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (jsx-no-closing-bracket-newline) /src/tslint-misc-rules/jsx-no-closing-bracket-newline/test.tsx[4, 7]: closing brackets for jsx elements should not be on newlines
+ERROR: (jsx-no-closing-bracket-newline) /src/tslint-misc-rules/jsx-no-closing-bracket-newline/test.tsx[8, 7]: closing brackets for jsx elements should not be on newlines
+ERROR: (jsx-no-closing-bracket-newline) /src/tslint-misc-rules/jsx-no-closing-bracket-newline/test.tsx[12, 7]: closing brackets for jsx elements should not be on newlines
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const fails = (
+  <div>
+      <span className={ value }
+      />
+      <a className=\\"asdf\\"
+          href=\\"/foo\\"
+          id=\\"123\\" /
+      >
+      <div
+          className=\\"qwer\\"
+          id=\\"asdf\\"
+      >
+          text
+      </div>
+  </div>
+);
+
+======
+const fails = (
+  <div>
+    <span className={value} />
+    <a className=\\"asdf\\" href=\\"/foo\\" id=\\"123\\" />
+    <div className=\\"qwer\\" id=\\"asdf\\">
+      text
+    </div>
+  </div>
+);
+
+>>>>>> after
+"
+`;

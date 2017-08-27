@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "jsx-curly-spacing": [true, "never"]
+  }
+}

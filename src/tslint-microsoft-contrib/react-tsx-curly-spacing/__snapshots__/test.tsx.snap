@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (react-tsx-curly-spacing) /src/tslint-microsoft-contrib/react-tsx-curly-spacing/test.tsx[2, 23]: There should be no space after '{'
+ERROR: (react-tsx-curly-spacing) /src/tslint-microsoft-contrib/react-tsx-curly-spacing/test.tsx[3, 23]: There should be no space before '}'
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const a = <Hello name={firstname} />;
+const b = <Hello name={ firstname} />;
+const c = <Hello name={firstname } />;
+
+======
+const a = <Hello name={firstname} />;
+const b = <Hello name={firstname} />;
+const c = <Hello name={firstname} />;
+
+>>>>>> after
+"
+`;

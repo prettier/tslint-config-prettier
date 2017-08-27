@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (no-unnecessary-semicolons) /src/tslint-microsoft-contrib/no-unnecessary-semicolons/test.ts[3, 2]: unnecessary semi-colon
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+while (true) {
+  console.log('semi');
+};
+
+======
+while (true) {
+  console.log(\\"semi\\");
+}
+
+>>>>>> after
+"
+`;

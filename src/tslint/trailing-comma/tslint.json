@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "trailing-comma": [
+      true,
+      { "singleline": "never" },
+      { "multiline": "never" }
+    ]
+  }
+}
