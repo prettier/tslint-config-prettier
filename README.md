@@ -31,7 +31,19 @@ Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at 
 
 ### More configuration
 
-`tslint-config-prettier` also turns off formatting rules from [tslint-react](https://github.com/palantir/tslint-react) and [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules), so you can use them safely.
+`tslint-config-prettier` also turns off formatting rules from the following rulesets, so you can use them safely.
+
+- [codelyzer](https://github.com/mgechev/codelyzer)
+- [tslint](https://github.com/palantir/tslint)
+- [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
+- [tslint-divid](https://github.com/jonaskello/tslint-divid)
+- [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
+- [tslint-immutable](https://github.com/jonaskello/tslint-immutable)
+- [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
+- [tslint-misc-rules](https://github.com/jwbay/tslint-misc-rules)
+- [tslint-plugin-ikatyang](https://github.com/ikatyang/tslint-plugin-ikatyang)
+- [tslint-react](https://github.com/palantir/tslint-react)
+- [vrsource-tslint-rules](https://github.com/vrsource/vrsource-tslint-rules)
 
 ```json
 {
