@@ -71,7 +71,7 @@ So, you only will be required to follow [conventional-commit](https://github.com
 
 ### Related
 
-- [`tslint-plugin-prettier`](https://github.com/ikatyang/tslint-plugin-prettier) Runs Prettier as a TSLint rule and reports differences as individual TSLint issues.
+- [tslint-plugin-prettier](https://github.com/ikatyang/tslint-plugin-prettier) - Runs Prettier as a TSLint rule and reports differences as individual TSLint issues.
 
 ### Credits
 
