@@ -31,7 +31,6 @@
     "build-tools": "tsc",
     "generate-config": "node ./build/generate.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "semantic-release-prepare": "node tools/semantic-release-prepare",
     "commit": "git-cz",
     "prepush": "npm run test",
     "commitmsg": "validate-commit-msg"
