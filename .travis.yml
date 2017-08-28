@@ -4,6 +4,7 @@ branches:
     - master
     - /^greenkeeper/.*$/
 cache:
+  yarn: true
   directories:
     - node_modules
 notifications:
@@ -11,11 +12,14 @@ notifications:
 node_js:
   - 'node'
   - 6
+before_install:
+  - yarn global add greenkeeper-lockfile@1
 before_script:
-  - npm prune && npm cache clean --force
-  - npm install
+  - greenkeeper-lockfile-update
 script:
   - npm run lint
   - npm run test
 after_success:
   - npm run semantic-release
+after_script:
+  - greenkeeper-lockfile-upload
