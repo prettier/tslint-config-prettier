@@ -12,8 +12,6 @@ notifications:
 node_js:
   - 'node'
   - 6
-before_script:
-  - npm prune && npm cache clean --force
 script:
   - npm run lint
   - npm run test
