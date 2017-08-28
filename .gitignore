@@ -1,5 +1,7 @@
 node_modules
 coverage
+lib
+build
 .nyc_output
 .DS_Store
 *.log

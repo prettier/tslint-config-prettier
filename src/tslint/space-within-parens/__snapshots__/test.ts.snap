@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+no error
+
+======
+ERROR: (space-within-parens) /src/tslint/space-within-parens/test.ts[1, 12]: Needs 1 whitespace within parentheses
+ERROR: (space-within-parens) /src/tslint/space-within-parens/test.ts[1, 21]: Needs 1 whitespace within parentheses
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+function x( a: string ) {}
+
+======
+function x(a: string) {}
+
+>>>>>> after
+"
+`;

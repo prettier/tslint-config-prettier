@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (ter-indent) /src/tslint-eslint-rules/ter-indent/test.ts[2, 1]: Expected indentation of 2 spaces but found 0.
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+if (true) {
+console.log(123);
+}
+
+======
+if (true) {
+  console.log(123);
+}
+
+>>>>>> after
+"
+`;

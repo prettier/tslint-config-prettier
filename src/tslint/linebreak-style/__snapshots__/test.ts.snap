@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (linebreak-style) /src/tslint/linebreak-style/test.ts[1, 1]: Expected linebreak to be 'LF'
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+
+
+======
+
+>>>>>> after
+"
+`;

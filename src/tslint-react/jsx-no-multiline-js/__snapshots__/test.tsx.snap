@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (jsx-no-multiline-js) /src/tslint-react/jsx-no-multiline-js/test.tsx[2, 1]: Multiline JS expressions inside JSX are forbidden
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const printBadStr = <div>
+{test ?
+    \\"a!=b\\"
+:
+    \\"b!=a\\"
+}
+</div>;
+
+======
+const printBadStr = (
+  <div>
+    {test ? \\"a!=b\\" : \\"b!=a\\"}
+  </div>
+);
+
+>>>>>> after
+"
+`;

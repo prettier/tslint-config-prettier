@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+no error
+
+======
+ERROR: (no-semicolon-interface) /src/tslint-divid/no-semicolon-interface/test.ts[2, 3]: Use comma instead of semicolon in interfaces.
+ERROR: (no-semicolon-interface) /src/tslint-divid/no-semicolon-interface/test.ts[3, 3]: Use comma instead of semicolon in interfaces.
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+interface Foo {
+  bar: string,
+  zoo(): number,
+}
+
+======
+interface Foo {
+  bar: string;
+  zoo(): number;
+}
+
+>>>>>> after
+"
+`;

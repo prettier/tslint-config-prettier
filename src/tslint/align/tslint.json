@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "align": [
+      true,
+      "arguments",
+      "parameters",
+      "statements"
+    ]
+  }
+}

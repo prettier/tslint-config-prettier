@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (literal-spacing) /src/vrsource-tslint-rules/literal-spacing/test.ts[1, 9]: Missing whitespace
+ERROR: (literal-spacing) /src/vrsource-tslint-rules/literal-spacing/test.ts[1, 10]: Missing whitespace
+ERROR: (literal-spacing) /src/vrsource-tslint-rules/literal-spacing/test.ts[3, 12]: Missing whitespace
+ERROR: (literal-spacing) /src/vrsource-tslint-rules/literal-spacing/test.ts[3, 15]: Missing whitespace
+ERROR: (literal-spacing) /src/vrsource-tslint-rules/literal-spacing/test.ts[5, 12]: Found extra space
+ERROR: (literal-spacing) /src/vrsource-tslint-rules/literal-spacing/test.ts[5, 14]: Found extra space
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+import {x} from 'x';
+
+const y = {a:1};
+
+const z = [ 0 ];
+
+======
+import { x } from \\"x\\";
+
+const y = { a: 1 };
+
+const z = [0];
+
+>>>>>> after
+"
+`;

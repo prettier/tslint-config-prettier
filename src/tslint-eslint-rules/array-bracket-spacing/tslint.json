@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "array-bracket-spacing": [true, "never"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "literal-spacing": [
+      true,
+      {
+        "array": ["never"],
+        "object": ["always"],
+        "import": ["always"]
+      }
+    ]
+  }
+}

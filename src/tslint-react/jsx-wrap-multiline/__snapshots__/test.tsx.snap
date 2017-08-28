@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (jsx-wrap-multiline) /src/tslint-react/jsx-wrap-multiline/test.tsx[1, 22]: Multiline JSX elements must be wrapped in parentheses
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const badMultiline = <div
+    className=\\"my-class\\"
+    tabIndex={-1}
+>
+    {children}
+</div>;
+
+======
+const badMultiline = (
+  <div className=\\"my-class\\" tabIndex={-1}>
+    {children}
+  </div>
+);
+
+>>>>>> after
+"
+`;
