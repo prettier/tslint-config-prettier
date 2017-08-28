@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "brace-style": [true, "1tbs"]
+  }
+}

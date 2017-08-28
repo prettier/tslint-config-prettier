@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (object-literal-key-quotes) /src/tslint/object-literal-key-quotes/test.ts[2, 3]: Unnecessarily quoted property 'quoted' found.
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const x = {
+  'quoted': true,
+};
+
+======
+const x = {
+  quoted: true
+};
+
+>>>>>> after
+"
+`;

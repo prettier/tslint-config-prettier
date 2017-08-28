@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "no-empty-line-after-opening-brace": true
+  }
+}

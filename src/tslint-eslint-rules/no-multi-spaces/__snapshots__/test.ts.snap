@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (no-multi-spaces) /src/tslint-eslint-rules/no-multi-spaces/test.ts[1, 11]: Multiple spaces found before '='.
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+let x     = 1;
+
+======
+let x = 1;
+
+>>>>>> after
+"
+`;

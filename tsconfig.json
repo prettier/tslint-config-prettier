@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["es6"],
+    "module": "commonjs",
+    "rootDir": "tools",
+    "outDir": "build"
+  },
+  "include": ["tools/**/*.ts"]
+}

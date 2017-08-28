@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (align) /src/tslint/align/test.ts[2, 3]: parameters are not aligned
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+export function test(a: number,
+  b: number) {}
+
+======
+export function test(a: number, b: number) {}
+
+>>>>>> after
+"
+`;

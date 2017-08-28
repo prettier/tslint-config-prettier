@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (no-consecutive-blank-lines) /src/tslint/no-consecutive-blank-lines/test.ts[3, 1]: Consecutive blank lines are forbidden
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+console.log(1);
+
+
+console.log(2);
+
+======
+console.log(1);
+
+console.log(2);
+
+>>>>>> after
+"
+`;

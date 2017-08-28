@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "jsx-no-closing-bracket-newline": true
+  }
+}

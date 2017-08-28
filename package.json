@@ -11,9 +11,9 @@
     "typescript"
   ],
   "files": [
-    "src/index.js"
+    "lib/index.json"
   ],
-  "main": "src/index.js",
+  "main": "lib/index.json",
   "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
   "repository": {
     "type": "git",
@@ -24,11 +24,13 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "test": "jest",
-    "test:lint": "tslint 'test-lint/**'",
-    "test:prod": "npm t && npm run test:lint",
+    "prepublish": "npm run build-tools && npm run generate-config",
+    "lint": "tslint 'tools/**'",
+    "test": "npm run clean && jest --no-cache",
+    "clean": "rimraf ./node_modules/vrsource-tslint-rules/rules/*.ts",
+    "build-tools": "tsc",
+    "generate-config": "node ./build/generate.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "semantic-release-prepare": "node tools/semantic-release-prepare",
     "commit": "git-cz",
     "prepush": "npm run test",
     "commitmsg": "validate-commit-msg"
@@ -43,20 +45,46 @@
     }
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "testMatch": [
+      "**/test.{ts,tsx}"
+    ],
+    "transform": {
+      "\\.tsx?$": "<rootDir>/build/transform.js"
+    }
   },
   "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "@types/make-dir": "^1.0.1",
+    "@types/node": "^8.0.25",
+    "@types/prettier": "^1.5.0",
+    "codelyzer": "3.1.2",
     "commitizen": "^2.9.5",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.14.3",
     "jest": "^20.0.1",
     "lodash": "^4.17.4",
-    "prettier": "^1.4.2",
-    "semantic-release": "^7.0.2",
-    "tslint": "^5.4.3",
-    "tslint-eslint-rules": "^4.1.1",
-    "tslint-react": "^3.0.0",
-    "typescript": "^2.3.4",
-    "validate-commit-msg": "^2.10.1"
+    "make-dir": "^1.0.0",
+    "prettier": "1.5.3",
+    "rimraf": "^2.6.1",
+    "semantic-release": "^6.3.6",
+    "tslint": "5.7.0",
+    "tslint-consistent-codestyle": "1.6.0",
+    "tslint-divid": "1.0.4",
+    "tslint-eslint-rules": "4.1.1",
+    "tslint-immutable": "4.0.2",
+    "tslint-microsoft-contrib": "5.0.1",
+    "tslint-misc-rules": "3.1.3",
+    "tslint-plugin-ikatyang": "1.0.0",
+    "tslint-react": "3.2.0",
+    "typescript": "2.4.2",
+    "validate-commit-msg": "^2.10.1",
+    "vrsource-tslint-rules": "5.1.1"
   }
 }

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (jsx-attribute-spacing) /src/tslint-misc-rules/jsx-attribute-spacing/test.tsx[3, 11]: jsx attribute 'className' should not have whitespace around '='
+ERROR: (jsx-attribute-spacing) /src/tslint-misc-rules/jsx-attribute-spacing/test.tsx[4, 11]: jsx attribute 'className' should not have whitespace around '='
+ERROR: (jsx-attribute-spacing) /src/tslint-misc-rules/jsx-attribute-spacing/test.tsx[5, 11]: jsx attribute 'className' should not have whitespace around '='
+ERROR: (jsx-attribute-spacing) /src/tslint-misc-rules/jsx-attribute-spacing/test.tsx[6, 11]: jsx attribute 'className' should not have whitespace around '='
+ERROR: (jsx-attribute-spacing) /src/tslint-misc-rules/jsx-attribute-spacing/test.tsx[7, 11]: jsx attribute 'className' should not have whitespace around '='
+ERROR: (jsx-attribute-spacing) /src/tslint-misc-rules/jsx-attribute-spacing/test.tsx[8, 11]: jsx attribute 'className' should not have whitespace around '='
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const fails = (
+<div>
+    <span className = 'bar' />
+    <span className= 'bar' />
+    <span className ='bar' />
+    <span className = { value } />
+    <span className= { value } />
+    <span className ={ value } />
+</div>
+);
+
+======
+const fails = (
+  <div>
+    <span className=\\"bar\\" />
+    <span className=\\"bar\\" />
+    <span className=\\"bar\\" />
+    <span className={value} />
+    <span className={value} />
+    <span className={value} />
+  </div>
+);
+
+>>>>>> after
+"
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (quotemark) /src/tslint/quotemark/test.ts[1, 13]: ' should be \\"
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+console.log('quotes');
+
+======
+console.log(\\"quotes\\");
+
+>>>>>> after
+"
+`;

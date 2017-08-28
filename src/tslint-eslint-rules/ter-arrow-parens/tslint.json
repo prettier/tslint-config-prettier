@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "ter-arrow-parens": [true, "as-needed"]
+  }
+}

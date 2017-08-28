@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "ter-arrow-spacing": [true, { "before": true, "after": true }]
+  }
+}
