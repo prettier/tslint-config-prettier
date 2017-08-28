@@ -69,6 +69,10 @@ This project uses [semantic-release](https://github.com/semantic-release/semanti
 
 So, you only will be required to follow [conventional-commit](https://github.com/commitizen/conventional-commit-types) messages. Everything else happens magically.
 
+### Related
+
+- [`tslint-plugin-prettier`](https://github.com/ikatyang/tslint-plugin-prettier) Runs Prettier as a TSLint rule and reports differences as individual TSLint issues.
+
 ### Credits
 
 Made with :heart: by [@alexjoverm](https://twitter.com/alexjoverm) and all its [contributors](https://github.com/alexjoverm/tslint-config-prettier/graphs/contributors)
