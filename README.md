@@ -57,6 +57,21 @@ Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at 
 }
 ```
 
+### CLI helper tool
+
+`tslint-config-prettier` also ships with a little CLI tool to help you check if your configuration contains any rules that are conflict with Prettier. (require `tslint` installed)
+
+First, add a script for it to `package.json`:
+
+```json
+{
+  "scripts": {
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
+  }
+}
+```
+
+Then run `npm run tslint-check`.
 
 ### Contributing
 
