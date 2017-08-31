@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should show success message for conflict rules that is disabled 1`] = `"No conflict rule detected in <cwd>/fixtures/tslint.false.json"`;
+
+exports[`should show success message for non-conflict rules 1`] = `"No conflict rule detected in <cwd>/fixtures/tslint.empty.json"`;
+
+exports[`should throw conflict rules 1`] = `
+"Conflict rule(s) detected in <cwd>/fixtures/tslint.all.json:
+align
+arrow-parens
+eofline
+import-spacing
+indent
+linebreak-style
+max-line-length
+new-parens
+no-consecutive-blank-lines
+no-irregular-whitespace
+no-trailing-whitespace
+object-literal-key-quotes
+one-line
+quotemark
+semicolon
+space-before-function-paren
+space-within-parens
+trailing-comma
+typedef-whitespace
+whitespace"
+`;
+
+exports[`should throw error if input is not a string 1`] = `"Usage: tslint-config-prettier-check <pathToConfigFile>"`;
+
+exports[`should throw parsing error for invalid config 1`] = `"Unexpected number in JSON at position 1"`;

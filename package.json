@@ -11,9 +11,14 @@
     "typescript"
   ],
   "files": [
-    "lib/index.json"
+    "bin/check.js",
+    "lib/index.json",
+    "lib/checker.js"
   ],
   "main": "lib/index.json",
+  "bin": {
+    "tslint-config-prettier-check": "bin/check.js"
+  },
   "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
   "repository": {
     "type": "git",
@@ -24,11 +29,12 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "prepublish": "npm run build-tools && npm run generate-config",
-    "lint": "tslint 'tools/**'",
+    "prepublish": "npm run build-tools && npm run generate-config && npm run build-checker",
+    "lint": "tslint 'tools/**/*.ts'",
     "test": "npm run clean && jest --no-cache",
     "clean": "rimraf ./node_modules/vrsource-tslint-rules/rules/*.ts",
     "build-tools": "tsc",
+    "build-checker": "tsc -p ./tsconfig.checker.json",
     "generate-config": "node ./build/generate.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commit": "git-cz",
@@ -53,10 +59,21 @@
       "json"
     ],
     "testMatch": [
-      "**/test.{ts,tsx}"
+      "**/src/**/test.{ts,tsx}",
+      "**/tools/*.test.ts"
     ],
     "transform": {
-      "\\.tsx?$": "<rootDir>/build/transform.js"
+      "/src/.+\\.tsx?$": "<rootDir>/build/transform.js",
+      "/tools/.+\\.ts$": "ts-jest/preprocessor"
+    },
+    "mapCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
     }
   },
   "devDependencies": {
@@ -74,6 +91,7 @@
     "prettier": "1.6.1",
     "rimraf": "^2.6.1",
     "semantic-release": "^6.3.6",
+    "ts-jest": "^20.0.13",
     "tslint": "5.7.0",
     "tslint-consistent-codestyle": "1.6.0",
     "tslint-divid": "1.0.4",
