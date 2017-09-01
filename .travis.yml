@@ -18,7 +18,7 @@ before_script:
   - greenkeeper-lockfile-update
 script:
   - npm run lint
-  - npm run test
+  - npm run test -- --ci --verbose --coverage
 after_success:
   - npm run semantic-release
 after_script:
