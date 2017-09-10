@@ -3,7 +3,7 @@
 exports[`should affect error message after formatting 1`] = `
 "
 <<<<<< before
-ERROR: (no-unnecessary-parens-for-arrow-function-arguments) /src/tslint-misc-rules/no-unnecessary-parens-for-arrow-function-arguments/test.ts[1, 13]: arrow functions with one argument should not have parentheses around the argument
+ERROR: (no-unnecessary-parens-for-arrow-function-arguments) /src/tslint-misc-rules/no-unnecessary-parens-for-arrow-function-arguments/test.ts[1, 14]: arrow functions with one argument should not have parentheses around the argument
 
 ======
 no error
