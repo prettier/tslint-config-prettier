@@ -10,16 +10,9 @@ cache:
 notifications:
   email: false
 node_js:
-  - 'node'
-  - 6
-before_install:
-  - yarn global add greenkeeper-lockfile@1
-before_script:
-  - greenkeeper-lockfile-update
+  - node
 script:
   - npm run lint
   - npm run test -- --ci --verbose --coverage
 after_success:
   - npm run semantic-release
-after_script:
-  - greenkeeper-lockfile-upload
