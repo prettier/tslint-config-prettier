@@ -9,7 +9,7 @@
 
 <h3> :cop: tslint  +  :nail_care: prettier = :heart_eyes: </h3>
 
-Do you wanna use [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier) without conflicts? tslint-config-prettier disables all conflicting rules that may cause such problems. Prettier takes care of formatting and tslint the rest.
+Do you want to use [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier) without conflicts? tslint-config-prettier disables all conflicting rules that may cause such problems. Prettier takes care of the formatting whereas tslint takes care of all the other things.
 
 ### Get started
 
@@ -59,9 +59,9 @@ Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at 
 
 ### CLI helper tool
 
-`tslint-config-prettier` also ships with a little CLI tool to help you check if your configuration contains any rules that are conflict with Prettier. (require `tslint` installed)
+`tslint-config-prettier` is shipped with a little CLI tool to help you check if your configuration contains any rules that are in conflict with Prettier. (require `tslint` installed)
 
-First, add a script for it to `package.json`:
+In order to execute the CLI tool, first add a script for it to `package.json`:
 
 ```json
 {
@@ -83,7 +83,7 @@ npm install
 
 This project uses [semantic-release](https://github.com/semantic-release/semantic-release) to keep a clean CI/CD pipe.
 
-So, you only will be required to follow [conventional-commit](https://github.com/commitizen/conventional-commit-types) messages. Everything else happens magically.
+So, the only requirement is to follow [conventional-commit](https://github.com/commitizen/conventional-commit-types) messages. Everything else happens magically.
 
 ### Related
 
