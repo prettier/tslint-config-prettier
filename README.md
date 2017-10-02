@@ -9,7 +9,7 @@
 
 <h3> :cop: tslint  +  :nail_care: prettier = :heart_eyes: </h3>
 
-Do you wanna use [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier) without conflicts? tslint-config-prettier disables all conflicting rules that may cause such problems. Prettier takes care of formatting and tslint the rest.
+Do you wanna use [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier) without conflicts? tslint-config-prettier disables all conflicting rules that may cause such problems. Prettier takes care of formatting issues whilst tslint handles the rest.
 
 ### Get started
 
@@ -19,7 +19,7 @@ npm install -D tslint-config-prettier
 
 Make sure you've already set up [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier).
 
-Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at the end**:
+Then, edit your `tslint.json`, and make sure `tslint-config-prettier` is **at the end**:
 
 ```json
 {
@@ -30,9 +30,9 @@ Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at 
 }
 ```
 
-### More configuration
+### Extended configuration
 
-`tslint-config-prettier` also turns off formatting rules from the following rulesets, so you can use them safely.
+`tslint-config-prettier` also turns off formatting rules from the following rulesets, so that you can use them safely.
 
 - [codelyzer](https://github.com/mgechev/codelyzer)
 - [tslint](https://github.com/palantir/tslint)
@@ -59,7 +59,7 @@ Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at 
 
 ### CLI helper tool
 
-`tslint-config-prettier` also ships with a little CLI tool to help you check if your configuration contains any rules that are conflict with Prettier. (require `tslint` installed)
+`tslint-config-prettier` also ships with a little CLI tool to help you check if your configuration contains any rules that are in conflict with Prettier. (require `tslint` installed)
 
 First, add a script for it to `package.json`:
 
