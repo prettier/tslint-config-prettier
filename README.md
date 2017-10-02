@@ -73,6 +73,14 @@ First, add a script for it to `package.json`:
 
 Then run `npm run tslint-check`.
 
+### Example
+
+Wonder how [TSlint](https://palantir.github.io/tslint/) and [Prettier](https://github.com/prettier/prettier) works together?
+Visit these links to learn more:
+
+- [Using TSlint with Prettier](https://alexjoverm.github.io/2017/06/12/Use-Prettier-with-TSLint-and-be-happy/)
+- [Egghead.io (Video)](https://egghead.io/lessons/typescript-use-prettier-with-tslint-without-conflicts-c39670eb/)
+
 ### Contributing
 
 ```bash
