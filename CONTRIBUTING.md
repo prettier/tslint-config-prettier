@@ -8,10 +8,18 @@ So, you only will be required to follow [conventional-commit](https://github.com
 
 ## Forking repo
 
+Fork the repo. Then, clone it and install dependencies:
+
 ```bash
 git clone https://github.com/YOUR-USERNAME/tslint-config-prettier
 npm install
 ```
+
+This will set up the pre-push and commit-msg hooks, making sure your commits have the correct style, tests are passing and the coverage is met, so your commit don't break the build.
+
+You can run the command npm run commit to make you easier to write a conventional commit. Keep every PR as scoped as possible.
+
+Finally, Submit your changes by pull request :point_down:!
 
 ## Submitting changes
 
