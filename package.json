@@ -38,7 +38,7 @@
     "generate-config": "node ./build/generate.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commit": "git-cz",
-    "prepush": "npm run test",
+    "prepush": "npm run test && npm run lint",
     "commitmsg": "validate-commit-msg"
   },
   "config": {
