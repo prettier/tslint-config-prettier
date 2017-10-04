@@ -73,6 +73,11 @@ In order to execute the CLI tool, first add a script for it to `package.json`:
 
 Then run `npm run tslint-check`.
 
+### Tutorials
+
+- [Using TSlint with Prettier](https://alexjoverm.github.io/2017/06/12/Use-Prettier-with-TSLint-and-be-happy/)
+- [Use Prettier with TSLint without conflicts (video)](https://egghead.io/lessons/typescript-use-prettier-with-tslint-without-conflicts-c39670eb/)
+
 ### Contributing
 
 ```bash
