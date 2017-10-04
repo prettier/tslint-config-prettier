@@ -80,15 +80,7 @@ Then run `npm run tslint-check`.
 
 ### Contributing
 
-```bash
-# Fork repo
-git clone https://github.com/YOUR-USERNAME/tslint-config-prettier
-npm install
-```
-
-This project uses [semantic-release](https://github.com/semantic-release/semantic-release) to keep a clean CI/CD pipe.
-
-So, the only requirement is to follow [conventional-commit](https://github.com/commitizen/conventional-commit-types) messages. Everything else happens magically.
+Please read [CONTRIBUTING.md](https://github.com/alexjoverm/tslint-config-prettier/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ### Related
 
