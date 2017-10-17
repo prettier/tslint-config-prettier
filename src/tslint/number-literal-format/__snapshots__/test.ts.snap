@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (number-literal-format) /src/tslint/number-literal-format/test.ts[1, 13]: Number literal should begin with '0.' and not just '.'.
+ERROR: (number-literal-format) /src/tslint/number-literal-format/test.ts[1, 26]: Number literal should not have a trailing '0'.
+
+======
+ERROR: (number-literal-format) /src/tslint/number-literal-format/test.ts[1, 20]: Hexadecimal number literal should be uppercase.
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const ns = [.123, 0xABC, 1.20];
+
+======
+const ns = [0.123, 0xabc, 1.2];
+
+>>>>>> after
+"
+`;
