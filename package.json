@@ -92,7 +92,7 @@
     "rimraf": "^2.6.1",
     "semantic-release": "^8.0.0",
     "ts-jest": "^21.0.0",
-    "tslint": "5.7.0",
+    "tslint": "5.8.0",
     "tslint-consistent-codestyle": "1.8.0",
     "tslint-divid": "1.0.4",
     "tslint-eslint-rules": "4.1.1",
