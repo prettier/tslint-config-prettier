@@ -1,3 +1,6 @@
 {
-  "extends": ["tslint:latest"]
+  "extends": ["tslint:latest"],
+  "rules": {
+    "no-implicit-dependencies": [true, "dev"]
+  }
 }
