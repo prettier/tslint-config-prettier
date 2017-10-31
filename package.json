@@ -101,7 +101,7 @@
     "tslint-misc-rules": "3.2.0",
     "tslint-plugin-ikatyang": "1.1.1",
     "tslint-react": "3.2.0",
-    "typescript": "2.5.3",
+    "typescript": "2.6.1",
     "validate-commit-msg": "^2.10.1",
     "vrsource-tslint-rules": "5.1.1"
   }
