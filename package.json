@@ -81,7 +81,7 @@
     "@types/make-dir": "^1.0.1",
     "@types/node": "^8.0.25",
     "@types/prettier": "^1.5.0",
-    "codelyzer": "4.0.1",
+    "codelyzer": "4.0.2",
     "commitizen": "^2.9.5",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.14.3",
