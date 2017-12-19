@@ -51,7 +51,6 @@
     }
   },
   "jest": {
-    "testEnvironment": "node",
     "moduleFileExtensions": [
       "ts",
       "tsx",
