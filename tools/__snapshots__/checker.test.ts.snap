@@ -17,6 +17,7 @@ new-parens
 no-consecutive-blank-lines
 no-irregular-whitespace
 no-trailing-whitespace
+number-literal-format
 object-literal-key-quotes
 one-line
 quotemark
