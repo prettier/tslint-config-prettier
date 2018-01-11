@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (newline-per-chained-call) /src/tslint/newline-per-chained-call/test.ts[4, 6]: When chaining calls, put method calls on new lines.
+ERROR: (newline-per-chained-call) /src/tslint/newline-per-chained-call/test.ts[4, 12]: When chaining calls, put method calls on new lines.
+
+======
+ERROR: (newline-per-chained-call) /src/tslint/newline-per-chained-call/test.ts[1, 6]: When chaining calls, put method calls on new lines.
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+foo()
+  .bar()
+
+foo().bar().baz()
+
+======
+foo().bar();
+
+foo()
+  .bar()
+  .baz();
+
+>>>>>> after
+"
+`;
