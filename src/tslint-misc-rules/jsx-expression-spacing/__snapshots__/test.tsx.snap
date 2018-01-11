@@ -3,18 +3,18 @@
 exports[`should affect error message after formatting 1`] = `
 "
 <<<<<< before
-ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[3, 37]: jsx expression should have one space before closing '}'
 ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[3, 7]: jsx expression should have one space after opening '{'
+ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[3, 37]: jsx expression should have one space before closing '}'
 ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[4, 7]: jsx expression should have one space after opening '{'
 ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[5, 29]: jsx expression should have one space before closing '}'
 
 ======
-ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[3, 35]: jsx expression should have one space before closing '}'
 ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[3, 5]: jsx expression should have one space after opening '{'
-ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[4, 23]: jsx expression should have one space before closing '}'
+ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[3, 35]: jsx expression should have one space before closing '}'
 ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[4, 5]: jsx expression should have one space after opening '{'
-ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[5, 24]: jsx expression should have one space before closing '}'
+ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[4, 23]: jsx expression should have one space before closing '}'
 ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[5, 5]: jsx expression should have one space after opening '{'
+ERROR: (jsx-expression-spacing) /src/tslint-misc-rules/jsx-expression-spacing/test.tsx[5, 24]: jsx expression should have one space before closing '}'
 
 >>>>>> after
 "

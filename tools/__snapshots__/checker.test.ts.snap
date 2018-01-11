@@ -31,4 +31,4 @@ whitespace"
 
 exports[`should throw error if input is not a string 1`] = `"Usage: tslint-config-prettier-check <pathToConfigFile>"`;
 
-exports[`should throw parsing error for invalid config 1`] = `"Unexpected number in JSON at position 1"`;
+exports[`should throw parsing error for invalid config 1`] = `"Unexpected number in JSON at position 1 in <cwd>/fixtures/tslint.error.json"`;
