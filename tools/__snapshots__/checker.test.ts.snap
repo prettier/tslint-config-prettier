@@ -14,6 +14,7 @@ indent
 linebreak-style
 max-line-length
 new-parens
+newline-per-chained-call
 no-consecutive-blank-lines
 no-irregular-whitespace
 no-trailing-whitespace
