@@ -93,7 +93,7 @@
     "semantic-release": "^8.0.0",
     "ts-jest": "^22.0.0",
     "tslint": "5.9.1",
-    "tslint-consistent-codestyle": "1.11.0",
+    "tslint-consistent-codestyle": "1.11.1",
     "tslint-divid": "1.3.0",
     "tslint-eslint-rules": "4.1.1",
     "tslint-immutable": "4.5.1",
