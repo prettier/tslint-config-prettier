@@ -4,7 +4,8 @@
     "lib": ["es6"],
     "module": "commonjs",
     "rootDir": "tools",
-    "outDir": "build"
+    "outDir": "build",
+    "inlineSourceMap": true
   },
   "include": ["tools/**/*.ts"]
 }
