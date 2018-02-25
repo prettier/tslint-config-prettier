@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+no error
+
+======
+ERROR: (ter-padded-blocks) /src/tslint-eslint-rules/ter-padded-blocks/test.ts[1, 11]: Block must be padded by blank lines.
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+if (true) {
+
+  somebody.doSomething();
+
+}
+
+======
+if (true) {
+  somebody.doSomething();
+}
+
+>>>>>> after
+"
+`;
