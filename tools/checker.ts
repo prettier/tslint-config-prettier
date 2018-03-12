@@ -20,7 +20,9 @@ export const check = (configFilePath: string) => {
   });
 
   if (conflictRules.length !== 0) {
-    throw new Error(`Conflict rule(s) detected in ${configFilePath}:\n${conflictRules.join("\n")}`);
+    const error = new Error(`Conflict rule(s) detected in ${configFilePath}:\n${conflictRules.join("\n")}`);
+    error.name = "ConflictRules";
+    throw error;
   }
 
   // tslint:disable-next-line:no-console
