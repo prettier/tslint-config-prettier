@@ -98,7 +98,7 @@
     "tslint-eslint-rules": "5.1.0",
     "tslint-immutable": "4.5.2",
     "tslint-microsoft-contrib": "5.0.3",
-    "tslint-misc-rules": "3.3.1",
+    "tslint-misc-rules": "3.3.2",
     "tslint-plugin-ikatyang": "1.1.1",
     "tslint-react": "3.5.1",
     "typescript": "2.6.2",
