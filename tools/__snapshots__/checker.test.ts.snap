@@ -1,35 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should show success message for conflict rules that is disabled 1`] = `"No conflict rule detected in <cwd>/fixtures/tslint.false.json"`;
-
-exports[`should show success message for non-conflict rules 1`] = `"No conflict rule detected in <cwd>/fixtures/tslint.empty.json"`;
-
-exports[`should throw conflict rules 1`] = `
-"Conflict rule(s) detected in <cwd>/fixtures/tslint.all.json:
-align
-arrow-parens
-eofline
-import-spacing
-indent
-linebreak-style
-max-line-length
-new-parens
-newline-per-chained-call
-no-consecutive-blank-lines
-no-irregular-whitespace
-no-trailing-whitespace
-number-literal-format
-object-literal-key-quotes
-one-line
-quotemark
-semicolon
-space-before-function-paren
-space-within-parens
-trailing-comma
-typedef-whitespace
-whitespace"
+exports[`should be able to check multiple config files 1`] = `
+"[error] Conflict rule(s) detected in <cwd>/fixtures/tslint.all.json:
+[error]   align
+[error]   arrow-parens
+[error]   eofline
+[error]   import-spacing
+[error]   indent
+[error]   linebreak-style
+[error]   max-line-length
+[error]   new-parens
+[error]   newline-per-chained-call
+[error]   no-consecutive-blank-lines
+[error]   no-irregular-whitespace
+[error]   no-trailing-whitespace
+[error]   number-literal-format
+[error]   object-literal-key-quotes
+[error]   one-line
+[error]   quotemark
+[error]   semicolon
+[error]   space-before-function-paren
+[error]   space-within-parens
+[error]   trailing-comma
+[error]   typedef-whitespace
+[error]   whitespace
+[log] No conflict rule detected in <cwd>/fixtures/tslint.empty.json
+[error] Unexpected number in JSON at position 1 in <cwd>/fixtures/tslint.error.json"
 `;
 
-exports[`should throw error if input is not a string 1`] = `"Usage: tslint-config-prettier-check <pathToConfigFile>"`;
+exports[`should show success message for conflict rules that is disabled 1`] = `"[log] No conflict rule detected in <cwd>/fixtures/tslint.false.json"`;
 
-exports[`should throw parsing error for invalid config 1`] = `"Unexpected number in JSON at position 1 in <cwd>/fixtures/tslint.error.json"`;
+exports[`should show success message for non-conflict rules 1`] = `"[log] No conflict rule detected in <cwd>/fixtures/tslint.empty.json"`;
+
+exports[`should show usage if there is no filePath 1`] = `"[log] Usage: tslint-config-prettier-check <pathToConfigFile> ..."`;
+
+exports[`should throw conflict rules 1`] = `
+"[error] Conflict rule(s) detected in <cwd>/fixtures/tslint.all.json:
+[error]   align
+[error]   arrow-parens
+[error]   eofline
+[error]   import-spacing
+[error]   indent
+[error]   linebreak-style
+[error]   max-line-length
+[error]   new-parens
+[error]   newline-per-chained-call
+[error]   no-consecutive-blank-lines
+[error]   no-irregular-whitespace
+[error]   no-trailing-whitespace
+[error]   number-literal-format
+[error]   object-literal-key-quotes
+[error]   one-line
+[error]   quotemark
+[error]   semicolon
+[error]   space-before-function-paren
+[error]   space-within-parens
+[error]   trailing-comma
+[error]   typedef-whitespace
+[error]   whitespace"
+`;
+
+exports[`should throw parsing error for invalid config 1`] = `"[error] Unexpected number in JSON at position 1 in <cwd>/fixtures/tslint.error.json"`;
