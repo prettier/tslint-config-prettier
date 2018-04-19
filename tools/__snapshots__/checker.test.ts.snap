@@ -24,13 +24,12 @@ exports[`should be able to check multiple config files 1`] = `
 [error]   trailing-comma
 [error]   typedef-whitespace
 [error]   whitespace
-[log] No conflict rule detected in <cwd>/fixtures/tslint.empty.json
 [error] Unexpected number in JSON at position 1 in <cwd>/fixtures/tslint.error.json"
 `;
 
-exports[`should show success message for conflict rules that is disabled 1`] = `"[log] No conflict rule detected in <cwd>/fixtures/tslint.false.json"`;
+exports[`should show nothing for conflict rules that is disabled 1`] = `""`;
 
-exports[`should show success message for non-conflict rules 1`] = `"[log] No conflict rule detected in <cwd>/fixtures/tslint.empty.json"`;
+exports[`should show nothing for non-conflict rules 1`] = `""`;
 
 exports[`should show usage if there is no filePath 1`] = `"[log] Usage: tslint-config-prettier-check <pathToConfigFile> ..."`;
 

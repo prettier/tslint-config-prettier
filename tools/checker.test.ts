@@ -34,13 +34,13 @@ it("should throw parsing error for invalid config", () => {
   expect(process.exitCode).toBe(1);
 });
 
-it("should show success message for non-conflict rules", () => {
+it("should show nothing for non-conflict rules", () => {
   checkFixture("empty");
   expect(getMessage()).toMatchSnapshot();
   expect(process.exitCode).toBe(0);
 });
 
-it("should show success message for conflict rules that is disabled", () => {
+it("should show nothing for conflict rules that is disabled", () => {
   checkFixture("false");
   expect(getMessage()).toMatchSnapshot();
   expect(process.exitCode).toBe(0);
