@@ -66,7 +66,6 @@
       "/src/.+\\.tsx?$": "<rootDir>/build/transform.js",
       "/tools/.+\\.ts$": "ts-jest/preprocessor"
     },
-    "mapCoverage": true,
     "coverageThreshold": {
       "global": {
         "branches": 95,
@@ -85,7 +84,7 @@
     "commitizen": "^2.9.5",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.14.3",
-    "jest": "^22.0.4",
+    "jest": "^22.4.0",
     "lodash": "^4.17.4",
     "make-dir": "^1.0.0",
     "prettier": "1.12.0",
