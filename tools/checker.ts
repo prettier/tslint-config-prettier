@@ -14,10 +14,7 @@ export const check = (configFilePaths: string[]) => {
   configFilePaths.forEach((configFilePath) => {
     try {
       const conflictRules = getConflictRules(configFilePath);
-      if (conflictRules.length === 0) {
-        // tslint:disable-next-line:no-console
-        console.log(`No conflict rule detected in ${configFilePath}`);
-      } else {
+      if (conflictRules.length) {
         // tslint:disable-next-line:no-console
         console.error(
           `Conflict rule(s) detected in ${configFilePath}:\n${conflictRules
