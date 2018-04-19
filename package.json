@@ -36,7 +36,7 @@
     "build-tools": "tsc",
     "build-checker": "tsc -p ./tsconfig.checker.json",
     "generate-config": "node ./build/generate.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release",
     "commit": "git-cz",
     "prepush": "npm run test && npm run lint",
     "commitmsg": "validate-commit-msg"
@@ -89,7 +89,7 @@
     "make-dir": "^1.0.0",
     "prettier": "1.12.1",
     "rimraf": "^2.6.1",
-    "semantic-release": "^8.0.0",
+    "semantic-release": "^15.0.0",
     "ts-jest": "^22.0.0",
     "tslint": "5.9.1",
     "tslint-consistent-codestyle": "1.13.0",
