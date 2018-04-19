@@ -89,7 +89,7 @@
     "make-dir": "^1.0.0",
     "prettier": "1.12.1",
     "rimraf": "^2.6.1",
-    "semantic-release": "^15.1.2",
+    "semantic-release": "^8.0.0",
     "ts-jest": "^22.0.0",
     "tslint": "5.9.1",
     "tslint-consistent-codestyle": "1.13.0",
