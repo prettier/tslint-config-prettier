@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "multiline-arrow": [true, "require-parens"]
+  }
+}
