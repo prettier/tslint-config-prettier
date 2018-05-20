@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+no error
+
+======
+ERROR: (multiline-arrow) /src/vrsource-tslint-rules/multiline-arrow/test.ts[1, 11]: Multi-line arrow function must have parentheses around parameters.
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+const x = a => longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong;
+
+======
+const x = a =>
+  longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong;
+
+>>>>>> after
+"
+`;
