@@ -11,6 +11,8 @@
 
 Do you want to use [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier) without conflicts? tslint-config-prettier disables all conflicting rules that may cause such problems. Prettier takes care of the formatting whereas tslint takes care of all the other things.
 
+> Check how it works in **[this tutorial](https://alexjoverm.github.io/2017/06/12/Use-Prettier-with-TSLint-and-be-happy/)**.
+
 ### Get started
 
 ```bash
