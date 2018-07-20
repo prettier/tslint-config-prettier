@@ -1,0 +1,2 @@
+obj[ foo ];
+obj[ 'foo' ];
