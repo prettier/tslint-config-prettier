@@ -1,0 +1,6 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "ter-computed-property-spacing": [true, "always"]
+  }
+}

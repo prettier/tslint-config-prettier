@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+no error
+
+======
+ERROR: (ter-computed-property-spacing) /src/tslint-eslint-rules/ter-computed-property-spacing/test.ts[1, 4]: A space is required after '['.
+ERROR: (ter-computed-property-spacing) /src/tslint-eslint-rules/ter-computed-property-spacing/test.ts[1, 8]: A space is required before ']'.
+ERROR: (ter-computed-property-spacing) /src/tslint-eslint-rules/ter-computed-property-spacing/test.ts[2, 4]: A space is required after '['.
+ERROR: (ter-computed-property-spacing) /src/tslint-eslint-rules/ter-computed-property-spacing/test.ts[2, 10]: A space is required before ']'.
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+obj[ foo ];
+obj[ 'foo' ];
+
+======
+obj[foo];
+obj[\\"foo\\"];
+
+>>>>>> after
+"
+`;
