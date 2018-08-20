@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+no error
+
+======
+ERROR: (no-extra-semi) /src/tslint-eslint-rules/no-extra-semi/test.ts[1, 1]: unnecessary semicolon
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+({ x }) = foo()
+
+======
+;({ x } = foo())
+
+>>>>>> after
+"
+`;
