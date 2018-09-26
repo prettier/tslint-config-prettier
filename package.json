@@ -83,7 +83,7 @@
     "codelyzer": "4.1.0",
     "commitizen": "^2.9.5",
     "cz-conventional-changelog": "^2.0.0",
-    "husky": "^0.14.3",
+    "husky": "^1.0.0",
     "jest": "^23.2.0",
     "lodash": "^4.17.4",
     "make-dir": "^1.0.0",
