@@ -7,9 +7,9 @@
 [![devDependencies Status](https://img.shields.io/david/dev/alexjoverm/tslint-config-prettier.svg)](https://david-dm.org/alexjoverm/tslint-config-prettier?type=dev)
 [![Greenkeeper badge](https://badges.greenkeeper.io/alexjoverm/tslint-config-prettier.svg)](https://greenkeeper.io/)
 
-<h3> :cop: tslint  +  :nail_care: prettier = :heart_eyes: </h3>
+<h3> :cop: TSLint  +  :nail_care: Prettier = :heart_eyes: </h3>
 
-Do you want to use [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier) without conflicts? tslint-config-prettier disables all conflicting rules that may cause such problems. Prettier takes care of the formatting whereas tslint takes care of all the other things.
+Do you want to use [TSLint](https://palantir.github.io/tslint/) and [Prettier](https://github.com/prettier/prettier) without conflicts? `tslint-config-prettier` disables all conflicting rules that may cause such problems. Prettier takes care of the formatting whereas tslint takes care of all the other things.
 
 > Check how it works in **[this tutorial](https://alexjoverm.github.io/2017/06/12/Use-Prettier-with-TSLint-and-be-happy/)**.
 
@@ -19,7 +19,7 @@ Do you want to use [tslint](https://palantir.github.io/tslint/) and [prettier](h
 npm install -D tslint-config-prettier
 ```
 
-Make sure you've already set up [tslint](https://palantir.github.io/tslint/) and [prettier](https://github.com/prettier/prettier).
+Make sure you've already set up [TSLint](https://palantir.github.io/tslint/) and [Prettier](https://github.com/prettier/prettier).
 
 Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at the end**:
 
