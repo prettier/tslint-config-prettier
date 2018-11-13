@@ -82,7 +82,7 @@ Then run `npm run tslint-check`.
 
 ### Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/alexjoverm/tslint-config-prettier/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/prettier/tslint-config-prettier/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ### Related
 
@@ -90,4 +90,4 @@ Please read [CONTRIBUTING.md](https://github.com/alexjoverm/tslint-config-pretti
 
 ### Credits
 
-Made with :heart: by [@alexjoverm](https://twitter.com/alexjoverm) and all its [contributors](https://github.com/alexjoverm/tslint-config-prettier/graphs/contributors)
+Made with :heart: by [@alexjoverm](https://twitter.com/alexjoverm) and all its [contributors](https://github.com/prettier/tslint-config-prettier/graphs/contributors)

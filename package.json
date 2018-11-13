@@ -22,7 +22,7 @@
   "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexjoverm/tslint-config-prettier.git"
+    "url": "https://github.com/prettier/tslint-config-prettier.git"
   },
   "license": "MIT",
   "engines": {
