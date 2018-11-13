@@ -44,7 +44,6 @@ Then, extend your `tslint.json`, and make sure `tslint-config-prettier` is **at 
 - [tslint-immutable](https://github.com/jonaskello/tslint-immutable)
 - [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
 - [tslint-misc-rules](https://github.com/jwbay/tslint-misc-rules)
-- [tslint-plugin-ikatyang](https://github.com/ikatyang/tslint-plugin-ikatyang)
 - [tslint-react](https://github.com/palantir/tslint-react)
 - [vrsource-tslint-rules](https://github.com/vrsource/vrsource-tslint-rules)
 
@@ -82,7 +81,7 @@ Then run `npm run tslint-check`.
 
 ### Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/alexjoverm/tslint-config-prettier/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/prettier/tslint-config-prettier/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ### Related
 
@@ -90,4 +89,4 @@ Please read [CONTRIBUTING.md](https://github.com/alexjoverm/tslint-config-pretti
 
 ### Credits
 
-Made with :heart: by [@alexjoverm](https://twitter.com/alexjoverm) and all its [contributors](https://github.com/alexjoverm/tslint-config-prettier/graphs/contributors)
+Made with :heart: by [@alexjoverm](https://twitter.com/alexjoverm) and all its [contributors](https://github.com/prettier/tslint-config-prettier/graphs/contributors)
