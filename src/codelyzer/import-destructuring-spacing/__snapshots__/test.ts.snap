@@ -3,7 +3,7 @@
 exports[`should affect error message after formatting 1`] = `
 "
 <<<<<< before
-ERROR: (import-destructuring-spacing) /src/codelyzer/import-destructuring-spacing/test.ts[1, 8]: You need to leave whitespaces inside of the import statement's curly braces
+ERROR: (import-destructuring-spacing) /src/codelyzer/import-destructuring-spacing/test.ts[1, 8]: Import statement's curly braces must be spaced exactly by a space to the right and a space to the left
 
 ======
 no error
