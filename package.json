@@ -99,7 +99,7 @@
     "tslint-microsoft-contrib": "5.2.1",
     "tslint-misc-rules": "3.5.1",
     "tslint-react": "3.6.0",
-    "typescript": "3.0.3",
+    "typescript": "3.1.6",
     "validate-commit-msg": "^2.10.1",
     "vrsource-tslint-rules": "5.8.2"
   }
