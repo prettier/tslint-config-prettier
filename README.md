@@ -1,11 +1,10 @@
 # tslint-config-prettier
 
 [![npm](https://img.shields.io/npm/v/tslint-config-prettier.svg)](https://www.npmjs.com/package/tslint-config-prettier)
-[![Travis](https://img.shields.io/travis/alexjoverm/tslint-config-prettier.svg)](https://travis-ci.org/alexjoverm/tslint-config-prettier)
+[![Travis](https://img.shields.io/travis/alexjoverm/tslint-config-prettier.svg)](https://travis-ci.org/prettier/tslint-config-prettier)
 [![downloads](https://img.shields.io/npm/dm/tslint-config-prettier.svg)](https://www.npmjs.com/package/tslint-config-prettier)
-[![dependencies Status](https://img.shields.io/david/alexjoverm/tslint-config-prettier.svg)](https://david-dm.org/alexjoverm/tslint-config-prettier)
-[![devDependencies Status](https://img.shields.io/david/dev/alexjoverm/tslint-config-prettier.svg)](https://david-dm.org/alexjoverm/tslint-config-prettier?type=dev)
-[![Greenkeeper badge](https://badges.greenkeeper.io/alexjoverm/tslint-config-prettier.svg)](https://greenkeeper.io/)
+[![dependencies Status](https://img.shields.io/david/prettier/tslint-config-prettier.svg)](https://david-dm.org/prettier/tslint-config-prettier)
+[![devDependencies Status](https://img.shields.io/david/dev/prettier/tslint-config-prettier.svg)](https://david-dm.org/prettier/tslint-config-prettier?type=dev)
 
 <h3> :cop: TSLint  +  :nail_care: Prettier = :heart_eyes: </h3>
 
