@@ -29,16 +29,16 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "prepublish": "npm run build-tools && npm run generate-config && npm run build-checker",
+    "prepublish": "yarn build-tools && yarn generate-config && yarn build-checker",
     "lint": "tslint 'tools/**/*.ts'",
-    "test": "npm run clean && jest --no-cache",
+    "test": "yarn clean && jest --no-cache",
     "clean": "rimraf ./node_modules/vrsource-tslint-rules/rules/*.ts",
     "build-tools": "tsc",
     "build-checker": "tsc -p ./tsconfig.checker.json",
     "generate-config": "node ./build/generate.js",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
-    "prepush": "npm run test && npm run lint",
+    "prepush": "yarn test && yarn lint",
     "commitmsg": "validate-commit-msg"
   },
   "config": {
