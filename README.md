@@ -15,7 +15,9 @@ Do you want to use [TSLint](https://palantir.github.io/tslint/) and [Prettier](h
 ### Get started
 
 ```bash
-npm install -D tslint-config-prettier
+yarn add --dev tslint-config-prettier
+# or
+npm install --save-dev tslint-config-prettier
 ```
 
 Make sure you've already set up [TSLint](https://palantir.github.io/tslint/) and [Prettier](https://github.com/prettier/prettier).
@@ -71,7 +73,7 @@ In order to execute the CLI tool, first add a script for it to `package.json`:
 }
 ```
 
-Then run `npm run tslint-check`.
+Then run `yarn tslint-check` or `npm run tslint-check`.
 
 ### Tutorials
 
