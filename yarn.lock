@@ -5744,9 +5744,9 @@ sax@^1.2.4:
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 semantic-release@^15.0.0:
-  version "15.12.2"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.12.2.tgz#5e02f5281b4d3bb70b0421346cd6538921f583d6"
-  integrity sha512-kbUSNnK2py8AdL1scHSTgjz5HAQIcqrpwpWzFXXUpds2uotIj77p3qrKUB1pDsmMiUpMeGgu2cuqBF9Q2/4sUA==
+  version "15.12.5"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.12.5.tgz#37845a99b9e26ebea1ea020fed05010d29e5a699"
+  integrity sha512-KA7guNbM5A3UIGx37CLdprBLLZ7KN5+lEO88Xnzo2pNa8B+gnJTUD+8/TxP7f9As7WT+rEPd8pdBu6a9FAquFQ==
   dependencies:
     "@semantic-release/commit-analyzer" "^6.1.0"
     "@semantic-release/error" "^2.2.0"
