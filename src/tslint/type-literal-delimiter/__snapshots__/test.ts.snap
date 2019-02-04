@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should affect error message after formatting 1`] = `
+"
+<<<<<< before
+ERROR: (type-literal-delimiter) /src/tslint/type-literal-delimiter/test.ts[2, 12]: Expected type literal to use ';' instead of ','.
+ERROR: (type-literal-delimiter) /src/tslint/type-literal-delimiter/test.ts[3, 11]: Expected type literal to use ';' to separate members.
+
+======
+no error
+
+>>>>>> after
+"
+`;
+
+exports[`should be pretty after formatting 1`] = `
+"
+<<<<<< before
+type T = {
+  x: number,
+  y: string
+};
+
+======
+type T = {
+  x: number;
+  y: string;
+};
+
+>>>>>> after
+"
+`;

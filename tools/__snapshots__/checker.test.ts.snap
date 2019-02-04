@@ -22,6 +22,7 @@ exports[`should be able to check multiple config files 1`] = `
 [error]   space-before-function-paren
 [error]   space-within-parens
 [error]   trailing-comma
+[error]   type-literal-delimiter
 [error]   typedef-whitespace
 [error]   whitespace
 [error] Unexpected number in JSON at position 1 in <cwd>/fixtures/tslint.error.json"
@@ -55,6 +56,7 @@ exports[`should throw conflict rules 1`] = `
 [error]   space-before-function-paren
 [error]   space-within-parens
 [error]   trailing-comma
+[error]   type-literal-delimiter
 [error]   typedef-whitespace
 [error]   whitespace"
 `;
