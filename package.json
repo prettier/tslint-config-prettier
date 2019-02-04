@@ -86,7 +86,7 @@
     "husky": "^1.0.0",
     "jest": "^23.2.0",
     "lodash": "^4.17.4",
-    "make-dir": "^1.0.0",
+    "make-dir": "^2.0.0",
     "prettier": "1.16.3",
     "rimraf": "^2.6.1",
     "semantic-release": "^15.0.0",
