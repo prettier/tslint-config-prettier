@@ -87,7 +87,7 @@
     "jest": "^23.2.0",
     "lodash": "^4.17.4",
     "make-dir": "^1.0.0",
-    "prettier": "1.16.3",
+    "prettier": "1.16.4",
     "rimraf": "^2.6.1",
     "semantic-release": "^15.0.0",
     "ts-jest": "^23.10.0",
