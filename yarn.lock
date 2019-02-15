@@ -176,9 +176,9 @@
   integrity sha512-8xZEYckCbUVgK8Eg7lf5Iy4COKJ5uXlnIOnePN0WUwSQggy9tolM+tDJf7wMOnT/JT/W9xDYIaYggt3mRV2O5w==
 
 "@types/prettier@^1.10.0":
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.16.0.tgz#ee6190019ed78c41a22c3d8a2e7ebc4015e2e022"
-  integrity sha512-ExfCqCyU+SPZIDB1I+CTolTv0kNAATsxLIRdl2z3YAdAjstf6f+0aJQBatCNn8LRdREpAX28GAjw4FlU89Ct1Q==
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.16.1.tgz#328d1c9b54402e44119398bcb6a31b7bbd606d59"
+  integrity sha512-db6pZL5QY3JrlCHBhYQzYDci0xnoDuxfseUuguLRr3JNk+bnCfpkK6p8quiUDyO8A0vbpBKkk59Fw125etrNeA==
 
 JSONStream@^1.0.4, JSONStream@^1.3.4:
   version "1.3.5"
