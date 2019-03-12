@@ -11,7 +11,7 @@ notifications:
 node_js:
   - node
 install:
-  - npm install
+  - yarn install
 script:
   - npm run lint
   - npm run test -- --ci --verbose --coverage
