@@ -75,6 +75,8 @@ In order to execute the CLI tool, first add a script for it to `package.json`:
 
 Then run `yarn tslint-check` or `npm run tslint-check`.
 
+Or simply run `npx tslint-config-prettier-check ./tslint.json`.
+
 ### Tutorials
 
 - [Using TSlint with Prettier](https://alexjoverm.github.io/2017/06/12/Use-Prettier-with-TSLint-and-be-happy/)
