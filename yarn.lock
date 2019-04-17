@@ -663,6 +663,14 @@ argv-formatter@~1.0.0:
   resolved "https://registry.yarnpkg.com/argv-formatter/-/argv-formatter-1.0.0.tgz#a0ca0cbc29a5b73e836eebe1cbf6c5e0e4eb82f9"
   integrity sha1-oMoMvCmltz6Dbuvhy/bF4OTrgvk=
 
+aria-query@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-3.0.0.tgz#65b3fcc1ca1155a8c9ae64d6eee297f15d5133cc"
+  integrity sha1-ZbP8wcoRVajJrmTW7uKX8V1RM8w=
+  dependencies:
+    ast-types-flow "0.0.7"
+    commander "^2.11.0"
+
 arr-diff@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/arr-diff/-/arr-diff-4.0.0.tgz#d6461074febfec71e7e15235761a329a5dc7c520"
@@ -742,6 +750,11 @@ assign-symbols@^1.0.0:
   resolved "https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
   integrity sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c=
 
+ast-types-flow@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/ast-types-flow/-/ast-types-flow-0.0.7.tgz#f70b735c6bca1a5c9c22d982c3e39e7feba3bdad"
+  integrity sha1-9wtzXGvKGlycItmCw+Oef+ujva0=
+
 astral-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
@@ -785,6 +798,13 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
+
+axobject-query@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.0.2.tgz#ea187abe5b9002b377f925d8bf7d1c561adf38f9"
+  integrity sha512-MCeek8ZH7hKyO1rWUbKNQBbl4l2eY0ntk7OGi+q0RlafrCnfPxC06WZA+uebCfmYp4mNU9jRBP1AhGyf8+W3ww==
+  dependencies:
+    ast-types-flow "0.0.7"
 
 babel-jest@^24.4.0:
   version "24.4.0"
@@ -1241,17 +1261,20 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codelyzer@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-4.5.0.tgz#a65ddeeeca2894653253a89bfa229118ff9f59b1"
-  integrity sha512-oO6vCkjqsVrEsmh58oNlnJkRXuA30hF8cdNAQV9DytEalDwyOFRvHMnlKFzmOStNerOmPGZU9GAHnBo4tGvtiQ==
+codelyzer@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-5.0.0.tgz#e4032efb23a7c5d4bcfe7321fc1789490c679837"
+  integrity sha512-Bif70XYt8NFf/Q9GPTxmC86OsBRfQZq1dBjdruJ5kZhJ8/jKhJL6MvCLKnYtSOG6Rhiv/44DU0cHk6GYthjy8Q==
   dependencies:
     app-root-path "^2.1.0"
-    css-selector-tokenizer "^0.7.0"
+    aria-query "^3.0.0"
+    axobject-query "^2.0.2"
+    css-selector-tokenizer "^0.7.1"
     cssauron "^1.4.0"
+    damerau-levenshtein "^1.0.4"
     semver-dsl "^1.0.1"
     source-map "^0.5.7"
-    sprintf-js "^1.1.1"
+    sprintf-js "^1.1.2"
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -1302,6 +1325,11 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   integrity sha512-brWl9y6vOB1xYPZcpZde3N9zDByXTosAeMDo4p1wzo6UMOX4vumB+TP1RZ76sfE6Md68Q0NJSrE/gbezd4Ul+w==
   dependencies:
     delayed-stream "~1.0.0"
+
+commander@^2.11.0:
+  version "2.20.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
+  integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
 
 commander@^2.12.1:
   version "2.19.0"
@@ -1518,7 +1546,7 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
-css-selector-tokenizer@^0.7.0:
+css-selector-tokenizer@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/css-selector-tokenizer/-/css-selector-tokenizer-0.7.1.tgz#a177271a8bca5019172f4f891fc6eed9cbf68d5d"
   integrity sha512-xYL0AMZJ4gFzJQsHUKa5jiWWi2vH77WVNg7JYRyewwj6oPh4yb/y6Y9ZCw9dsj/9UauMhtuxR+ogQd//EdEVNA==
@@ -1573,6 +1601,11 @@ cz-conventional-changelog@2.1.0, cz-conventional-changelog@^2.0.0:
     longest "^1.0.1"
     right-pad "^1.0.1"
     word-wrap "^1.0.3"
+
+damerau-levenshtein@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.4.tgz#03191c432cb6eea168bb77f3a55ffdccb8978514"
+  integrity sha1-AxkcQyy27qFou3fzpV/9zLiXhRQ=
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -5970,10 +6003,10 @@ split@^1.0.0:
   dependencies:
     through "2"
 
-sprintf-js@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.1.tgz#36be78320afe5801f6cea3ee78b6e5aab940ea0c"
-  integrity sha1-Nr54Mgr+WAH2zqPueLblqrlA6gw=
+sprintf-js@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
+  integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
 
 sprintf-js@~1.0.2:
   version "1.0.3"
