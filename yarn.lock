@@ -6392,10 +6392,10 @@ tslint-eslint-rules@5.4.0:
     tslib "1.9.0"
     tsutils "^3.0.0"
 
-tslint-immutable@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/tslint-immutable/-/tslint-immutable-6.0.0.tgz#a3715a028cb130e09ef8935201d2a5299953767d"
-  integrity sha512-fWTWOs2iD/7HUHarX0Izv7lWSJ89Dr+jc1zqS1xm1PJ9D1MHuA25kiGREwGY/73+HnTTMWa9LPMnTION7LSbYg==
+tslint-immutable@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/tslint-immutable/-/tslint-immutable-6.0.1.tgz#6ae3f85cc3d8fb9d465d2f9a90ed6d6c50ccd3e6"
+  integrity sha512-3GQ6HffN64gLmT/N1YzyVMqyf6uBjMvhNaevK8B0K01/QC0OU5AQZrH4TjMHo1IdG3JpqsZvuRy9IW1LA3zjwA==
   dependencies:
     tsutils "^2.28.0 || ^3.0.0"
 
