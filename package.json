@@ -82,7 +82,7 @@
     "@types/prettier": "^1.10.0",
     "codelyzer": "4.5.0",
     "commitizen": "^3.0.0",
-    "cz-conventional-changelog": "^2.0.0",
+    "cz-conventional-changelog": "^3.0.2",
     "husky": "^1.0.0",
     "jest": "^24.1.0",
     "lodash": "^4.17.4",
