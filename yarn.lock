@@ -144,20 +144,20 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@fimbul/bifrost@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@fimbul/bifrost/-/bifrost-0.17.0.tgz#f0383ba7e40992e3193dc87e2ddfde2ad62a9cf4"
-  integrity sha512-gVTkJAOef5HtN6LPmrtt5fAUmBywwlgmObsU3FBhPoNeXPLaIl2zywXkJEtvvVLQnaFmtff3x+wIj5lHRCDE3Q==
+"@fimbul/bifrost@^0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/bifrost/-/bifrost-0.21.0.tgz#d0fafa25938fda475657a6a1e407a21bbe02c74e"
+  integrity sha512-ou8VU+nTmOW1jeg+FT+sn+an/M0Xb9G16RucrfhjXGWv1Q97kCoM5CG9Qj7GYOSdu7km72k7nY83Eyr53Bkakg==
   dependencies:
-    "@fimbul/ymir" "^0.17.0"
+    "@fimbul/ymir" "^0.21.0"
     get-caller-file "^2.0.0"
     tslib "^1.8.1"
     tsutils "^3.5.0"
 
-"@fimbul/ymir@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@fimbul/ymir/-/ymir-0.17.0.tgz#4f28389b9f804d1cd202e11983af1743488b7815"
-  integrity sha512-xMXM9KTXRLHLVS6dnX1JhHNEkmWHcAVCQ/4+DA1KKwC/AFnGHzu/7QfQttEPgw3xplT+ILf9e3i64jrFwB3JtA==
+"@fimbul/ymir@^0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/ymir/-/ymir-0.21.0.tgz#8525726787aceeafd4e199472c0d795160b5d4a1"
+  integrity sha512-T/y7WqPsm4n3zhT08EpB5sfdm2Kvw3gurAxr2Lr5dQeLi8ZsMlNT/Jby+ZmuuAAd1PnXYzKp+2SXgIkQIIMCUg==
   dependencies:
     inversify "^5.0.0"
     reflect-metadata "^0.1.12"
@@ -6367,12 +6367,12 @@ tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
 
-tslint-consistent-codestyle@1.15.1:
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/tslint-consistent-codestyle/-/tslint-consistent-codestyle-1.15.1.tgz#a0c5cd5a5860d40b659c490d8013c5732e02af8c"
-  integrity sha512-38Y3Dz4zcABe/PlPAQSGNEWPGVq0OzcIQR7SEU6dNujp/SgvhxhJOhIhI9gY4r0I3/TNtvVQwARWor9O9LPZWg==
+tslint-consistent-codestyle@1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/tslint-consistent-codestyle/-/tslint-consistent-codestyle-1.16.0.tgz#52348ea899a7e025b37cc6545751c6a566a19077"
+  integrity sha512-ebR/xHyMEuU36hGNOgCfjGBNYxBPixf0yU1Yoo6s3BrpBRFccjPOmIVaVvQsWAUAMdmfzHOCihVkcaMfimqvHw==
   dependencies:
-    "@fimbul/bifrost" "^0.17.0"
+    "@fimbul/bifrost" "^0.21.0"
     tslib "^1.7.1"
     tsutils "^2.29.0"
 
