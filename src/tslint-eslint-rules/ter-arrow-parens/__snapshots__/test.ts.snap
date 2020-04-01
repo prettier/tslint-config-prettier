@@ -3,10 +3,10 @@
 exports[`should affect error message after formatting 1`] = `
 "
 <<<<<< before
-ERROR: (ter-arrow-parens) /src/tslint-eslint-rules/ter-arrow-parens/test.ts[1, 8]: Unexpected parentheses around single function argument.
+no error
 
 ======
-no error
+ERROR: (ter-arrow-parens) /src/tslint-eslint-rules/ter-arrow-parens/test.ts[1, 8]: Unexpected parentheses around single function argument.
 
 >>>>>> after
 "
@@ -15,10 +15,10 @@ no error
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
-[].map((x) => 1);
+[].map(x => 1);
 
 ======
-[].map(x => 1);
+[].map((x) => 1);
 
 >>>>>> after
 "

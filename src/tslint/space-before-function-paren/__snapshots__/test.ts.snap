@@ -3,10 +3,10 @@
 exports[`should affect error message after formatting 1`] = `
 "
 <<<<<< before
-ERROR: (space-before-function-paren) /src/tslint/space-before-function-paren/test.ts[1, 24]: Spaces before function parens are disallowed
+no error
 
 ======
-no error
+ERROR: (space-before-function-paren) /src/tslint/space-before-function-paren/test.ts[1, 24]: Spaces before function parens are disallowed
 
 >>>>>> after
 "
@@ -15,10 +15,10 @@ no error
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
-export default function () {}
+export default function() {}
 
 ======
-export default function() {}
+export default function () {}
 
 >>>>>> after
 "

@@ -1,1 +1,1 @@
-const log = (x) => console.log(x);
+const log = x => console.log(x);

@@ -21,7 +21,7 @@ const x = {
 
 ======
 const x = {
-  quoted: true
+  quoted: true,
 };
 
 >>>>>> after

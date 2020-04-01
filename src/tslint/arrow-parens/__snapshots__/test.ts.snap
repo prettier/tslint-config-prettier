@@ -3,10 +3,10 @@
 exports[`should affect error message after formatting 1`] = `
 "
 <<<<<< before
-ERROR: (arrow-parens) /src/tslint/arrow-parens/test.ts[1, 9]: Parentheses are prohibited around the parameter in this single parameter arrow function
+no error
 
 ======
-no error
+ERROR: (arrow-parens) /src/tslint/arrow-parens/test.ts[1, 9]: Parentheses are prohibited around the parameter in this single parameter arrow function
 
 >>>>>> after
 "
@@ -15,10 +15,10 @@ no error
 exports[`should be pretty after formatting 1`] = `
 "
 <<<<<< before
-[].map((x) => 1);
+[].map(x => 1);
 
 ======
-[].map(x => 1);
+[].map((x) => 1);
 
 >>>>>> after
 "
