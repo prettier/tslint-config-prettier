@@ -79,7 +79,7 @@
     "@types/jest": "^23.1.2",
     "@types/make-dir": "^1.0.1",
     "@types/node": "^10.17.16",
-    "@types/prettier": "^1.10.0",
+    "@types/prettier": "^2.0.0",
     "codelyzer": "5.2.2",
     "commitizen": "^3.0.0",
     "cz-conventional-changelog": "^2.0.0",
