@@ -8,7 +8,7 @@
 
 <h3> :cop: TSLint  +  :nail_care: Prettier = :heart_eyes: </h3>
 
-Do you want to use [TSLint](https://palantir.github.io/tslint/) and [Prettier](https://github.com/prettier/prettier) without conflicts? `tslint-config-prettier` disables all [conflicting rules](https://unpkg.com/tslint-config-prettier) that may cause such problems. Prettier takes care of the formatting whereas tslint takes care of all the other things.
+Do you want to use [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) and [Prettier](https://github.com/prettier/prettier) without conflicts? `tslint-config-prettier` disables all [conflicting rules](https://unpkg.com/tslint-config-prettier) that may cause such problems. Prettier takes care of the formatting whereas tslint takes care of all the other things.
 
 > Check how it works in **[this tutorial](https://alexjoverm.github.io/2017/06/12/Use-Prettier-with-TSLint-and-be-happy/)**.
 
